@@ -1,0 +1,4 @@
+pytorch-cnn/cifar10_dataset
+pytorch-cnn/scene_dataset
+.spyproject
+pytorch-cnn/model.ckpt

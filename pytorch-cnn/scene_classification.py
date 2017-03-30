@@ -7,6 +7,9 @@ Convolutional neural networks to classify scene images categories.
 The dataset used is 3000 scene images from SUN dataset split equally as
 training set and testing set.
 
+possible improvement:
+- combat overfitting! use decay?
+
 @author: putama
 """
 
@@ -51,6 +54,7 @@ def imshow(img):
     img = img / 2 + 0.5 # unnormalize
     npimg = img.numpy()
     plt.imshow(np.transpose(npimg, (1,2,0)))
+    plt.show()
 
 def main():
     # %% options
@@ -105,7 +109,7 @@ def main():
 
     # %% start train
     best_dev_acc = 0
-    for epoch in range(20):
+    for epoch in range(60):
         running_loss = 0.0
         train_batches = 65
         curtime = time.time()

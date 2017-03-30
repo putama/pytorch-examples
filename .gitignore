@@ -2,5 +2,5 @@ pytorch-cnn/cifar10_dataset
 pytorch-cnn/scene_dataset
 .spyproject
 pytorch-cnn/model.ckpt
-tutorials/mnist/processed
-tutorials/mnist/raw
+tutorials/neural_networks/mnist/processed
+tutorials/neural_networks/mnist/raw
